@@ -63,7 +63,7 @@ export async function action({ request }: ActionFunctionArgs) {
   // If no errors, proceed with form submission
   try {
     const response = await fetch(
-      "https://forms.hubspot.com/uploads/form/v2/39872873/a84a20e1-dc4d-46e5-b38b-f0a9c14e2231",
+      "https://forms.hubspot.com/uploads/form/v2/39872873/a9e6451b-5e29-4c42-9ccf-f15e6c924dbc",
       {
         method: "POST",
         body: body,
