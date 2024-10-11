@@ -6,7 +6,7 @@ import ContactUs from "~/components/contactUs";
 import { ActionFunctionArgs } from "@remix-run/node";
 import LeftSectionProcure from "~/components/left-section-procure";
 import LoadingTest from "~/components/loading-test";
-import sectionbg from '../../public/assets/hero-logo';
+
 export const meta: MetaFunction = () => {
   return [
     { title: "Ivoyant | Crafting Customer Driven Digital Experiences" },
@@ -109,10 +109,11 @@ function isValidPhoneNumber(phone: any) {
 export default function Index() {
   return (
     <div className="flex-container main-container" style={{
-      backgroundImage: `url(/assets/bgimagenmsdc.png)`,
+      // backgroundImage: `url(/assets/dirconnect.png)`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height:'100%'
+      height:'100%',
+      background: 'linear-gradient(108deg, rgba(255, 255, 255, 0.90) 25.34%, rgba(255, 255, 255, 0.63) 50.19%, rgba(6, 34, 122, 0.63) 99.06%), url(/assets/dirconnect.png) lightgray 50% / cover no-repeat'
     }} >
       <div className="left-container left-section">
         <Suspense fallback={<LoadingTest />}>

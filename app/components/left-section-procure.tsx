@@ -1,4 +1,4 @@
-import tenyears from '../../public/assets/imagetop.svg';
+import tenyears from '../../public/assets/logotopdir.svg';
 import top from '../../public/assets/top.png';
 import { useMatch } from '@remix-run/react';
 
@@ -8,12 +8,12 @@ function LeftSectionProcure() {
 
   return (
     <section className="flex flex-col items-center px-4 text-center relative text-white h-full">
-      <ImageWithAlt src={top} alt="nmsdc" class_name={"top-left"} />
+      {/* <ImageWithAlt src={top} alt="nmsdc" class_name={"top-left"} /> */}
       <div className='holder-procure'>
         <ImageWithAlt src={tenyears} alt="nmsdc" class_name={"image-procure"} />
         <section className="event-banner mt-[14px]">
-          <span className="event-location">ATLANTA</span>
-          <span className="event-date">OCTOBER 20-23, 2024</span>
+          <span className="event-location">OCTOBER 23, 2024</span>
+          <span className="event-date">PALMER EVENTS CENTER, AUSTIN, TX</span>
         </section>
         <div className={`border-line ${isSuccess ? 'success-non-display' : ''}`}></div>
         <Header title="Get in Touch with us" isSuccess={isSuccess} />

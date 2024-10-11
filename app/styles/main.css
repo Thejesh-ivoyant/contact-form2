@@ -4,8 +4,11 @@
 
 .event-banner {
   display: flex;
-  font: 600 23px Poppins, sans-serif;
-  gap: 10px;
+  flex-direction: column;
+  font: 600 20px Poppins, sans-serif;
+  gap: 5px;
+  font-style: normal;
+  line-height: normal;
 }
 .top-left {
 display: flex;
@@ -19,12 +22,12 @@ object-fit: contain;
 
 .event-location {
   font-size: 23px;
-  color: rgba(255, 209, 25, 1);
+  color: #05227A;
 }
 
 .event-date {
   font-size: 23px;
-  color: rgba(162, 222, 253, 1);
+  color: #05227A;
 }
 
 .header-subtext {
@@ -57,9 +60,9 @@ line-height: normal;
 }
 
 .header {
-  color: #00FFA7;
+  color:  #D97505;
   text-align: center;
-  font-family: Oxygen;
+  font-family: Poppins;
   font-size: 23px;
   font-style: normal;
   font-weight: 700;
@@ -78,9 +81,9 @@ line-height: normal;
  align-items: center;
 }
 .text-block {
-  color: #FFF;
+  color: #552E95;
 text-align: center;
-font-family: Oxygen;
+font-family: Poppins;
 font-size: 25px;
 font-style: normal;
 font-weight: 700;
@@ -91,9 +94,9 @@ max-width: 635px;
 }
 
 .text-block-link {
-  color: #FFD119;
+  color:  #861FAC;
 text-align: center;
-font-family: Oxygen;
+font-family: Poppins;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -102,9 +105,9 @@ letter-spacing: 0.56px;
 }
 
 .subtext {
-  color: #FFF;
+  color: #00257D;
 text-align: center;
-font-family: Oxygen;
+font-family: Poppins;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -628,7 +631,7 @@ font-size: 16px;
     margin-top: 8px;
 }
 .event-location {
-  color: rgba(255, 209, 25, 1);
+  color: #05227A;
   font-size: 12px;
 }
 .event-date {
@@ -831,7 +834,7 @@ font-size: 16px;
     line-height: 30px;
   }
   .event-location {
-    color: rgba(255, 209, 25, 1);
+    color: #05227A;
     font-size: 14px;
   }
   .event-date {
@@ -984,7 +987,7 @@ font-size: 16px;
     width: 100%;
   }
   .event-location {
-    color: rgba(255, 209, 25, 1);
+    color:#05227A;
     font-size: 20px;
   }
   .event-date {
@@ -1093,7 +1096,7 @@ margin-bottom: 50px !important;
     margin-top: 12px;
   }
   .event-location {
-    color: rgba(255, 209, 25, 1);
+    color: #05227A;
     font-size: 20px;
   }
   .event-date {

@@ -19,7 +19,7 @@ export default function Index() {
 
 
     <div className="flex-container main-container" style={{
-      backgroundImage: `url(/assets/bgimagenmsdc.png)`,
+      backgroundImage: `url(/assets/dirconnect.png)`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       height:'100%'

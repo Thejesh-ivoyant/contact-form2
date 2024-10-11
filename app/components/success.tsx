@@ -19,9 +19,9 @@ const ActionLink = ({ children }: { children: any }) => (
   </p>
 );
 
-const Image = ({ src, alt }: { src: any, alt: any }) => (
-  <img loading="eager" src={src} alt={alt} className=" mt-18 w-full aspect-[4] fill-indigo-50" />
-);
+// const Image = ({ src, alt }: { src: any, alt: any }) => (
+//   <img loading="eager" src={src} alt={alt} className=" mt-18 w-full aspect-[4] fill-indigo-50" />
+// );
 
 
 function Success() {
