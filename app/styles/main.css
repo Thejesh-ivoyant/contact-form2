@@ -11,6 +11,15 @@
   font-style: normal;
   line-height: normal;
 }
+.bottom-image{
+  display: flex;
+position: absolute;
+bottom: 0px;
+
+max-width: 360px;
+max-height: 100px;
+
+}
 .top-left {
 display: flex;
 position: absolute;
@@ -317,7 +326,9 @@ line-height: normal;
     text-align: center;
   }
 }
-
+.bottom-image{
+  display: none;
+}
 .country-drop {
   border-radius: 2px;
 }
@@ -627,6 +638,9 @@ font-size: 16px;
   .image-ivoyant-logo {
     aspect-ratio: 16/9;
   }
+  .bottom-image{
+    display: none;
+  }
   .text-block {
     max-width: 300px;
     margin-top: 6px;
@@ -817,6 +831,9 @@ font-size: 16px;
     line-height: 32px;
     max-width: 480px;
   }
+  .bottom-image{
+    display: none;
+  }
 
   .event-banner {
     margin-top: 18px;
@@ -964,6 +981,9 @@ font-size: 16px;
     margin-top: 10px;
     line-height: 32px;
     max-width: 500px;
+  }
+  .bottom-image{
+    display: none;
   }
   .image-height{
     height:auto;

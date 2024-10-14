@@ -1,5 +1,5 @@
 import tenyears from '../../public/assets/logotopdir.svg';
-import top from '../../public/assets/top.png';
+import top from '../../public/assets/bottom.svg';
 import { useMatch } from '@remix-run/react';
 
 function LeftSectionProcure() {
@@ -8,7 +8,7 @@ function LeftSectionProcure() {
 
   return (
     <section className="flex flex-col items-center px-4 text-center relative text-white h-full">
-      {/* <ImageWithAlt src={top} alt="nmsdc" class_name={"top-left"} /> */}
+      <ImageWithAlt src={top} alt="spiral" class_name={"bottom-image"} />
       <div className='holder-procure'>
         <ImageWithAlt src={tenyears} alt="nmsdc" class_name={"image-procure"} />
         <section className="event-banner">
