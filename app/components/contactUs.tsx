@@ -374,14 +374,15 @@ const ContactUs = () => {
             <img
               src={ivurl}
               alt="iVoyant Logo"
-              className="flex contact-logo object-contain logo-desk"
+                className="flex contact-logo object-contain "
+              // className="flex contact-logo object-contain logo-desk"
             />
 
-<img
+{/* <img
             src={ivurl2}
             alt="iVoyant Logo white"
             className="flex   logo-image object-contain logo-mob"
-          />
+          /> */}
           </div>
 
           <div>

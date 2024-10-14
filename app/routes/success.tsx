@@ -18,11 +18,11 @@ export default function Index() {
   return (
 
 
-    <div className="flex-container main-container" style={{
-      backgroundImage: `url(/assets/dirconnect.png)`,
+    <div className="flex-container main-container image-height" style={{
+      background: 'linear-gradient(108deg, rgba(255, 255, 255, 0.03) 25.34%, rgba(255, 255, 255, 0.63) 50.19%, rgba(6, 34, 122, 0.63) 99.06%), url(/assets/dirconnect.png) lightgray 50% / cover no-repeat',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height:'100%'
+    
     }} >
       <div className="left-container left-section">
         <Suspense fallback={<LoadingTest />}>

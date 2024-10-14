@@ -108,12 +108,11 @@ function isValidPhoneNumber(phone: any) {
 
 export default function Index() {
   return (
-    <div className="flex-container main-container" style={{
+    <div className="flex-container main-container image-height" style={{
       // backgroundImage: `url(/assets/dirconnect.png)`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      height:'100%',
-      background: 'linear-gradient(108deg, rgba(255, 255, 255, 0.90) 25.34%, rgba(255, 255, 255, 0.63) 50.19%, rgba(6, 34, 122, 0.63) 99.06%), url(/assets/dirconnect.png) lightgray 50% / cover no-repeat'
+      background: 'linear-gradient(108deg, rgba(255, 255, 255, 0.03) 25.34%, rgba(255, 255, 255, 0.63) 50.19%, rgba(6, 34, 122, 0.63) 99.06%), url(/assets/dirconnect.png) lightgray 50% / cover no-repeat'
     }} >
       <div className="left-container left-section">
         <Suspense fallback={<LoadingTest />}>

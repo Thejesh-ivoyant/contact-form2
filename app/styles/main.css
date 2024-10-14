@@ -3,10 +3,11 @@
 }
 
 .event-banner {
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
   font: 600 20px Poppins, sans-serif;
-  gap: 5px;
+ 
   font-style: normal;
   line-height: normal;
 }
@@ -43,7 +44,7 @@ object-fit: contain;
 .border-line {
   width: 100%;
   max-width: 379px;
-  border-top: 1px solid rgba(60, 189, 255, 0.50);
+  border-top: 1px solid #173973;
   margin-top: 28px;
   
 }
@@ -71,6 +72,7 @@ line-height: normal;
   max-width: 379px;
 }
 .holder-procure{
+  
   display: flex;
   flex-direction: column;
   margin:auto;
@@ -215,7 +217,9 @@ line-height: normal;
 .text-box:focus::placeholder {
   color: transparent;
 }
-
+.image-height{
+  height : '100%';
+}
 .text-box:hover:not(:focus)::placeholder {
   color: #404258;
   font-family: Montserrat;
@@ -498,6 +502,8 @@ html {
   width: 376px;
 }
 .image-procure {
+
+
   margin-top: 1.5rem;
   max-width: 394px;
   max-height: 172px;
@@ -569,9 +575,9 @@ html {
 
   position: absolute;
   top: 32px;
-  right: 10px;
-  max-width: 87px;
-  max-height: 23px;
+
+  max-width: 140px;
+  max-height: 37px;
 }
   .subtitle {
     margin-top: 1rem;
@@ -614,7 +620,8 @@ font-size: 16px;
   }
 
   .image-procure {
-    max-width: 224px;
+    padding-top: 1rem;
+    max-width: 235px;
     max-height: 99px;
     margin-top: 5rem;
 }
@@ -629,6 +636,9 @@ font-size: 16px;
   }
   .container-top {
     margin-top: 8px;
+}
+.image-height{
+  height:auto;
 }
 .event-location {
   color: #05227A;
@@ -705,6 +715,9 @@ font-size: 16px;
     max-width: 90px;
     max-height: 90px;
   }
+  .holder-procure{
+    padding-bottom: 8px;
+  }
   .form-section-success {
     
     padding-top: 1.45rem;
@@ -760,6 +773,9 @@ font-size: 16px;
     padding-top: 5px !important;
 
 }
+.image-height{
+  height:auto;
+}
   .top-left {
    
     top: 14px;
@@ -782,9 +798,9 @@ font-size: 16px;
 
   position: absolute;
   top: 32px;
-  right: 10px;
-  max-width: 87px;
-  max-height: 23px;
+ 
+  max-width: 180px;
+  max-height: 49px;
 }
 .success-non-display{
   display: none;
@@ -799,8 +815,9 @@ font-size: 16px;
     max-width: 480px;
   }
   .image-procure {
+    padding-top: 1.6rem;
     margin-top: 5rem;
-    max-width: 290px;
+    max-width: 280px;
     max-height: 132px;
   }
   .image-ivoyant-logo {
@@ -867,6 +884,9 @@ font-size: 16px;
   .single-order{
     display: unset;
   }
+   .holder-procure{
+    padding-bottom: 8px;
+  }
 
   .right-container {
     width: 100%;
@@ -895,6 +915,9 @@ font-size: 16px;
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .main-container {
     flex-direction: column;
+  }
+  .holder-procure{
+    padding-bottom: 8px;
   }
 .success-body{
   margin-top: 0rem;
@@ -934,9 +957,13 @@ font-size: 16px;
     line-height: 32px;
     max-width: 500px;
   }
+  .image-height{
+    height:auto;
+  }
   .image-procure {
+    padding-top: 2.62rem;
     margin-top: 5rem;
-    max-width: 260.622px;
+    max-width: 290.622px;
     max-height: 120.617px;
     aspect-ratio: auto;
   }
@@ -1030,9 +1057,9 @@ margin-bottom: 50px !important;
    
     position: absolute;
     top: 32px;
-    right: 10px;
-    max-width: 87px;
-    max-height: 23px;
+   
+    max-width: 190px;
+    max-height: 67px;
 }
 
 
@@ -1189,7 +1216,7 @@ margin-bottom: 50px !important;
     font-size: 18px;
   }
   .image-procure {
-    max-width: 300.622px;
+    max-width: 400.622px;
     max-height: 160.617px;
     object-fit: contain;
   }

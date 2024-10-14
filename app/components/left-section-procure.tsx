@@ -11,7 +11,7 @@ function LeftSectionProcure() {
       {/* <ImageWithAlt src={top} alt="nmsdc" class_name={"top-left"} /> */}
       <div className='holder-procure'>
         <ImageWithAlt src={tenyears} alt="nmsdc" class_name={"image-procure"} />
-        <section className="event-banner mt-[14px]">
+        <section className="event-banner">
           <span className="event-location">OCTOBER 23, 2024</span>
           <span className="event-date">PALMER EVENTS CENTER, AUSTIN, TX</span>
         </section>
