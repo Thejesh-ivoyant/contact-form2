@@ -314,21 +314,8 @@ line-height: normal;
   align-items: start;
 }
 
-@media (max-width: 576px) {
- 
 
-  .error-left-container {
-    align-items: center;
-  }
 
-  .error-left-container div {
-    align-items: center;
-    text-align: center;
-  }
-}
-.bottom-image{
-  display: none;
-}
 .country-drop {
   border-radius: 2px;
 }
@@ -573,6 +560,15 @@ html {
   .message-box {
     display: none;
   }
+  .error-left-container {
+    align-items: center;
+  }
+
+  .error-left-container div {
+    align-items: center;
+    text-align: center;
+  }
+ 
   .form-container{
 
       padding-top: 5px !important;
