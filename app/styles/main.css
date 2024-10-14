@@ -1099,6 +1099,10 @@ margin-bottom: 50px !important;
     margin-top: 28px;
    
   }
+  .bottom-image{
+    max-width: 300px;
+    
+  }
   .text-block {
     max-width: 420px;
     font-size: 18px;
