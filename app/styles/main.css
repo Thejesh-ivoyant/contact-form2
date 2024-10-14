@@ -78,8 +78,7 @@ line-height: normal;
   margin:auto;
   text-align: center;
  position: relative;
- padding-left: 1rem;
- padding-right: 1rem;
+
  align-items: center;
 }
 .text-block {
@@ -101,7 +100,7 @@ text-align: center;
 font-family: Poppins;
 font-size: 20px;
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 line-height: normal;
 letter-spacing: 0.56px;
 }
@@ -112,7 +111,7 @@ text-align: center;
 font-family: Poppins;
 font-size: 18px;
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 line-height: normal;
   margin-top: 60px;
 }
