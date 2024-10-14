@@ -18,8 +18,8 @@ export async function SendGrid(email: string, fullName: string) {
     fromMail: "Sonya@ivoyant.com",
     fromName: "Sonya Beredimas",
     to: [email],
-    subject: "Great connecting with you at NMSDC Annual Meetup",
-    templateId: "d-07435702649e45039b78d80673c0f5ac",
+    subject: "Great connecting with you at DIR Connect Technology Expo 2024 in Austin, TX.",
+    templateId: "d-401bd3782f974c1da24db450f5f1eb86",
     props: {
       name: fullName
     }
