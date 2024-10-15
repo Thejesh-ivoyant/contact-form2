@@ -247,11 +247,11 @@ line-height: normal;
 }
 
 .text-box:focus {
-  border-bottom: 1px solid #129be1;
+  border-bottom: 1px solid #552e95;
   caret-color: #404258;
 }
 .text-box:hover {
-  border-bottom: 1px solid #129be1;
+  border-bottom: 1px solid #552e95;
 }
 
 /* Change pointer color */
@@ -343,8 +343,8 @@ line-height: normal;
 /* CheckboxStyles.css */
 
 .ant-checkbox + .ant-checkbox-checked .ant-checkbox-inner {
-  background-color: #129be1 !important;
-  border-color: #129be1 !important;
+  background-color: #552e95 !important;
+  border-color: #552e95 !important;
 }
 
 /* Checked state */
@@ -370,8 +370,8 @@ line-height: normal;
 /* Customize the color of the checkbox */
 
 .ant-checkbox .ant-wave-target {
-  border-color: #129be1 !important;
-  background-color: #129be1 !important;
+  border-color: #552e95 !important;
+  background-color: #552e95 !important;
 }
 
 .ant-checkbox-checked:hover .ant-checkbox-inner {
@@ -384,7 +384,7 @@ line-height: normal;
 .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover
   .ant-checkbox-checked:not(.ant-checkbox-disabled)
   .ant-checkbox-inner {
-  background-color: #129be1 !important;
+  background-color: #552e95 !important;
   border-color: transparent;
 }
 
@@ -441,12 +441,12 @@ html {
   background-color: #05227A !important;
 }
 .ant-checkbox-inner:hover {
-  border-color: #129be1 !important;
-  background-color: #129be1 !important;
+  border-color: #552e95 !important;
+  background-color: #552e95 !important;
 }
 .ant-checkbox:hover .ant-wave-target:hover .ant-checkbox-checked:hover {
-  border-color: #129be1 !important;
-  background-color: #129be1 !important;
+  border-color: #552e95 !important;
+  background-color: #552e95 !important;
 }
 /* Customize the focus color of the checkbox */
 .ant-checkbox-input:focus + .ant-checkbox-inner {
@@ -500,10 +500,9 @@ html {
 }
 .image-procure {
 
-
   margin-top: 1.5rem;
-  max-width: 394px;
-  max-height: 172px;
+  max-width: 471px;
+  max-height: 113px;
   object-fit: contain;
 }
 .image-ivoyant-logo {
@@ -570,7 +569,7 @@ html {
   }
  
   .form-container{
-
+    margin-bottom: 5rem;
       padding-top: 5px !important;
 
   }
@@ -782,7 +781,7 @@ font-size: 16px;
     margin-top: 1.8rem;
   }
   .form-container{
-
+    margin-bottom: 5rem;
     padding-top: 5px !important;
 
 }
@@ -1015,6 +1014,7 @@ font-size: 16px;
   }
    
   .form-container{
+    margin-bottom: 5rem;
     padding-top: 5px !important;
 }
   .image-fintech {
@@ -1177,7 +1177,7 @@ margin-bottom: 50px !important;
   }
   .image-procure {
     margin-top: 1.5rem;
-    max-width: 280.622px;
+    max-width: 380.622px;
     max-height: 140.617px;
     object-fit: contain;
   }
@@ -1246,7 +1246,7 @@ margin-bottom: 50px !important;
     font-size: 18px;
   }
   .image-procure {
-    max-width: 400.622px;
+    max-width: 450.622px;
     max-height: 160.617px;
     object-fit: contain;
   }
