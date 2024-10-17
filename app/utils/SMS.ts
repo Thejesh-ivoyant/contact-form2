@@ -25,7 +25,7 @@ export const SMS = async (c_code: string, phone_no: string, name: string) => {
 
   const to = `${c_code}${phone_no}`;
   const from = '+14049946986';
-  const smsBody = `${name}, it was great meeting with you at DIR Connect Technology Expo 2024 in Austin, TX. We're excited to connect and partner with you. You can reach me directly at:\n\nSonya Beredimas\nsonya@ivoyant.com \n+1 (678) 674 3937\nhttps://www.linkedin.com/in/sonya-b-235372120\nhttps://www.ivoyant.com`;
+  const smsBody = `${name}, it was great meeting with you at DIR Connect Technology Expo 2024 in Austin, TX. We're excited to connect and partner with you. You can reach me directly at:\n\nSonya Beredimas\nsonya@ivoyant.com \n+1 (678) 674 3937\nhttps://bit.ly/linkedin-sonya-beredimas\nhttps://www.ivoyant.com`;
 console.warn("number is ",`${c_code}${phone_no}`);
   try {
     await pRetry(() => sendSMS(to, from, smsBody), {
